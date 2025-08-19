@@ -1,0 +1,119 @@
+$ cd /workspace/shadcn-ui && pnpm run build
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1803 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-BcNdJMvI.css   71.38 kB │ gzip:  12.19 kB
+dist/assets/index-C7LRmVv3.js   530.91 kB │ gzip: 160.01 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.58s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1803 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-BcNdJMvI.css   71.38 kB │ gzip:  12.19 kB
+dist/assets/index-DW626bXl.js   531.26 kB │ gzip: 160.25 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.23s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1803 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-BcNdJMvI.css   71.38 kB │ gzip:  12.19 kB
+dist/assets/index-BqvT4MCq.js   534.95 kB │ gzip: 161.71 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.67s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1803 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-BBAK-erh.css   71.44 kB │ gzip:  12.20 kB
+dist/assets/index-BD_RIF6m.js   535.85 kB │ gzip: 161.73 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.27s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1804 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-C0k8MFh4.css   71.47 kB │ gzip:  12.20 kB
+dist/assets/index-DaelJ9Ei.js   547.59 kB │ gzip: 164.34 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.34s
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1804 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-C0k8MFh4.css   71.47 kB │ gzip:  12.20 kB
+dist/assets/index-Ce-AiM5K.js   547.54 kB │ gzip: 164.32 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.52s

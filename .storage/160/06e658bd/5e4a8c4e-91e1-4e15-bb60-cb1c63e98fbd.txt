@@ -1,0 +1,62 @@
+$ cd /workspace/shadcn-ui && pnpm run build
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 42 modules transformed.
+x Build failed in 2.34s
+error during build:
+[vite:esbuild] Transform failed with 3 errors:
+/workspace/shadcn-ui/src/components/Navbar.tsx:108:6: ERROR: Unexpected closing "nav" tag does not match opening "div" tag
+/workspace/shadcn-ui/src/components/Navbar.tsx:110:0: ERROR: The character "}" is not valid inside a JSX element
+/workspace/shadcn-ui/src/components/Navbar.tsx:110:1: ERROR: Unexpected end of file before a closing "nav" tag
+file: /workspace/shadcn-ui/src/components/Navbar.tsx:108:6
+
+Unexpected closing "nav" tag does not match opening "div" tag
+106|          </div>
+107|        </div>
+108|      </nav>
+   |        ^
+109|    );
+110|  }
+
+The character "}" is not valid inside a JSX element
+108|      </nav>
+109|    );
+110|  }
+   |  ^
+
+Unexpected end of file before a closing "nav" tag
+108|      </nav>
+109|    );
+110|  }
+   |   ^
+
+    at failureErrorWithLog (/workspace/shadcn-ui/node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/lib/main.js:1472:15)
+    at /workspace/shadcn-ui/node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/lib/main.js:755:50
+    at responseCallbacks.<computed> (/workspace/shadcn-ui/node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/lib/main.js:622:9)
+    at handleIncomingPacket (/workspace/shadcn-ui/node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/lib/main.js:677:12)
+    at Socket.readFromStdout (/workspace/shadcn-ui/node_modules/.pnpm/esbuild@0.21.5/node_modules/esbuild/lib/main.js:600:7)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+ ELIFECYCLE  Command failed with exit code 1.
+$ cd /workspace/shadcn-ui && pnpm run build
+
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1713 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.56 kB │ gzip:   0.78 kB
+dist/assets/index-Bi42sRgV.css   68.64 kB │ gzip:  11.82 kB
+dist/assets/index-CXmXNsGT.js   351.80 kB │ gzip: 111.68 kB
+✓ built in 7.16s

@@ -1,0 +1,22 @@
+$ cd /workspace/shadcn-ui
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+
+/workspace/shadcn-ui/src/components/HottestDeals.tsx
+  7:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/workspace/shadcn-ui/src/components/PropertySearchPage.tsx
+  10:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  14:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  15:64  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/workspace/shadcn-ui/src/pages/Index.tsx
+  10:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 5 problems (5 errors, 0 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.

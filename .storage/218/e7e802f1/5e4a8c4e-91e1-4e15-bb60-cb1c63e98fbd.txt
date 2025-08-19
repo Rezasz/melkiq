@@ -1,0 +1,3 @@
+$ cp /workspace/uploads/logo_melk_iq.png /workspace/shadcn-ui/public/assets/
+$ cp /workspace/uploads/logo_melk_iq.png /workspace/shadcn-ui/public/favicon.png
+

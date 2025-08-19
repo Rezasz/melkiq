@@ -1,0 +1,1 @@
+$ cp /workspace/uploads/london-dubai.avif /workspace/shadcn-ui/public/assets/

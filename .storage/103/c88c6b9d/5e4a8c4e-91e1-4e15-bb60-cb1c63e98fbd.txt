@@ -1,0 +1,16 @@
+$ cd /workspace/shadcn-ui && pnpm run lint
+
+
+> shadcnui@ lint /workspace/shadcn-ui
+> eslint --quiet ./src
+
+$ cd /workspace/shadcn-ui && npm install @supabase/supabase-js
+
+npm notice 
+npm notice New major version of npm available! 10.2.4 -> 11.5.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.5.2>
+npm notice Run `npm install -g npm@11.5.2` to update!
+npm notice 
+npm ERR! Cannot read properties of null (reading 'matches')
+
+npm ERR! A complete log of this run can be found in: /root/.npm/_logs/2025-08-19T09_20_15_938Z-debug-0.log
